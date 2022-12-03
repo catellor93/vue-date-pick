@@ -1,5 +1,5 @@
 <template>
-    <div class="vdpComponent" :class="{vdpWithInput: hasInputElement}">
+    <div class="v-text-field__slot">
         <slot
             :open="open"
             :close="close"
